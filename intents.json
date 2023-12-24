@@ -1,0 +1,481 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hiiiiii",
+        "helloooo",
+        "Hiii",
+        "Helloo","heyy","heyyy",
+        "hiiii",
+        "hiiiii",
+        "Hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "college timings_working days",
+      "patterns": [
+        "college timings",
+        "college timings for students",
+        "cbit college timings",
+        "college timings cbit",
+        "what are the college timings for students in cbit",
+        "what are the college timings",
+        "what are the college timings for students",
+        "tell me about the college timings in cbit",
+        "tell me about the college timings cbit",
+        "tell me about the college timings",
+        "college working days",
+        "working days in cbit",
+        "college working days cbit",
+        "cbit working days",
+        "what are the working days of cbit",
+        "what are the college working days",
+        "Do cbit allow students to go outside during the college timings",
+        "closed or open gates"
+      ],
+      "responses": [
+        "Monday to Saturday: 9.10 AM to 4.05 PM (Closed Gates)"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "is hostel available for students in cbit",
+        "cbit hostel",
+        "tell me about cbit hostel",
+        "hostel cbit",
+        "explain about hostel in cbit",
+        "hostel facility",
+        "girls hostel",
+        "boys hostel"
+      ],
+      "responses": [
+        "<p>The campus provides hostel facilities for boys but, unfortunately, does not offer the same for girls.</p><p>The hostel fee for a year amounts to <b>Rs.90000</b></p><The total capacity of the hostel being 540</p>"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "what are you doing?",
+      "patterns": [
+        "hey! what are you doing?",
+        "what are you doing"
+      ],
+      "responses": [
+        "I'm here to assist you! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "IT",
+      "patterns": [
+        "IT",
+        "explain about IT in cbit",
+        "explain about IT",
+        "information techonology",
+        "it",
+        "Tell me about IT in cbit",
+        "cbit it"
+      ],
+      "responses": [
+        "At CBIT, the Information Technology (IT) department offers a diverse curriculum covering key IT subjects such as programming, data structures, networks, cybersecurity, and software engineering. With a focus on practical learning, the department provides well-equipped labs and a comprehensive library. Students often engage in clubs, workshops, and industry-related events, benefiting from strong ties to IT companies for internships and placements.To know more about IT,you can visit <a href='https://www.cbit.ac.in/academic_post/department-of-information-technology/' target='_blank'>CBIT IT</a>"
+      ]
+    },
+    {
+      "tag": "Chemical",
+      "patterns": [
+        "chemical",
+        "chemical engineering"
+      ],
+      "responses": [
+        "CBIT's Chemical Engineering Department, founded in 1995, offers a prestigious B.Tech program, accredited by the NBA, with a 60-seat intake. It prioritizes practical learning, industry collaborations, and multidisciplinary research initiatives, aiming to establish a 'Smart Centre for Green Engineering and Technology-Research' to enhance collaborative research and skill development in niche areas of chemical engineering."
+      ]
+    },
+    {
+      "tag": "cse",
+      "patterns": [
+        "cse",
+        "computer science",
+        "cse specializations","specializations of cse at cbit"
+      ],
+      "responses": [
+        "<div><li>Computer Science and Engineering</li><li>Artificial Intelligence and Data Science</li><li>CSE(Artificial Intelligence and Machine Learning)</li><li>CSE(Internet of Things and Cyber Security Including Block Chain Technology)</li><li>Artificial Intelligence and Machine Learning</li></div/>"
+      ]
+    },
+    {
+      "tag": "Mech",
+      "patterns": [
+        "Mech",
+        "Mechanical"
+      ],
+      "responses": [
+        "The mechanical engineering department at CBIT always strives to stay at the forefront of technological innovation. Our department lives and swears by technological developments that are shaking the very foundations of conventional wisdom. If there is an existing solution to a real life problem in the field of mechanical engineering, our students know of it. And if there doesn't exist any, you can find them engrossed in finding one."
+      ]
+    },
+    {
+      "tag": "ECE",
+      "patterns": [
+        "Ece",
+        "Electronics and communication Engineering ",
+        "Electronics and communication"
+      ],
+      "responses": [
+        "CBIT's BE in Electronics and Communication is the ideal course for those who are keenly interested in circuits, network theory and how the modern-day electronic gadgets function.For this department will not only prepare you for jobs in the best corporate companies in the electronics industry, but also sets the tone for a scintillating career in academic research."
+      ]
+    },
+    {
+      "tag": "BioTech",
+      "patterns": [
+        "bioTechnology"
+      ],
+      "responses": [
+        "CBIT's Biotechnology Department, founded in 2005, cultivates diverse talent through robust education, well-equipped labs, and a dedicated faculty. With a five-domain focus, hands-on training, and strong industry connections, it boasts a 95%+ placement rate, propelling students into top companies, esteemed universities, and entrepreneurial ventures."
+      ]
+    },
+    {
+      "tag": "EEE",
+      "patterns": [
+        "eee",
+        "Electrical and Electronics Engineering"
+      ],
+      "responses": [
+        "The EEE Department at CBIT operates with one eye on excellence and the other one on the future. This is because we know just how fast the world is changing. As such, our students are armed with not just the traditional knowledge and wisdom in the field of electrical engineering, but also with an interdisciplinary perspective that helps them work in tandem with other specializations in the world of technology and science."
+      ]
+    },
+    {
+      "tag": "civil",
+      "patterns": [
+        "civil"
+      ],
+      "responses": [
+        "The Civil Engineering department at CBIT has to shoulder a major responsibility – that of producing the most gifted builders of tomorrow. And in this department, we take this responsibility very seriously. Officially recognized by Osmania University as a research center, the Civil Engineering department has been at the forefront of cutting edge research in this field. The numerous accolades and scholarship grants received by this department stand testimony to its deeply ingrained brilliance."
+      ]
+    },
+    {
+      "tag": "cbit",
+      "patterns": [
+        "Chaitanya Bharathi Institute of Technology",
+        "Tell me about CBIT",
+        "CBIT information",
+        "cbit",
+        "cbit info"
+      ],
+      "responses": [
+        "<p>Chaitanya Bharathi Institute of Technology (CBIT) is a prestigious engineering college located in Gandipet, Hyderabad, Telangana, India.</p><p>CBIT offers a range of undergraduate and postgraduate programs and is known for its commitment to quality education and innovation.</p><p>For more information, you can visit the CBIT website: <a href='https://www.cbit.ac.in/' target='_blank'>CBIT Website</a></p>"
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "who is the principal of cbit",
+        "principal",
+        "cbit principal",
+        "princi",
+        "principal of cbit"
+      ],
+      "responses": [
+        "<p style='white-space: nowrap;'>Prof. C. V. NARASIMHULU</p>"
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "vision of cbit",
+        "vision",
+        "vision cbit",
+        "cbit vision",
+        "what is the vision of cbit"
+      ],
+      "responses": [
+        "CBIT's Vision: 'To be the center of excellence in technical education and research.'"
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "mission of cbit",
+        "mission",
+        "mission cbit",
+        "cbit mission",
+        "what is the mission of cbit"
+      ],
+      "responses": [
+        "CBIT's Mission: 'To address the emerging needs through quality technical education and advanced research.'"
+      ]
+    },
+    {
+      "tag": "vision_mission",
+      "patterns": [
+        "What is CBIT's vision and mission?",
+        "CBIT institute goals",
+        "Vision and mission of CBIT",
+        "vision and mission",
+        "cbit vision and mission",
+        "cbit vision mission"
+      ],
+      "responses": [
+        "<p>CBIT's Vision: 'To be the center of excellence in technical education and research.'</p> <p>CBIT's Mission: 'To address the emerging needs through quality technical education and advanced research.'</p>"
+      ]
+    },
+    {
+      "tag": "vision_mission_IT",
+      "patterns": [
+        "What is IT vision and mission?",
+        "it vision",
+        "it mission",
+        "Vision and mission of CBIT IT",
+        "vision and mission IT",
+        "IT vision and mission",
+        "Vision and mission of IT",
+        "tell me the vision and mission of cbit it",
+        "tell me about the vision and mission of it"
+      ],
+      "responses": [
+        "Department Vision: To be a center of excellence in the field of information technology that yields pioneers and research experts who can contribute for the socio-­economic development of the nation.Department Mission.1.To impart state-of-the-art value based education in the field of Information Technology. 2.To collaborate with industries and research organizations and excel in the emerging areas of research. 3.To imbibe social responsibility in students. 4.To motivate students to be trend setters and technopreneurs."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "Tell me about the fee structure",
+        "CBIT tuition fees",
+        "Cost of education at CBIT",
+        "fee structure",
+        "fee details at cbit",
+        "fee details"
+      ],
+      "responses": [
+        "<div> <p>CBIT Tuition Fee for 2023-2024:</p><li>For Convener and B-Category students: <b>Rs. 1,40,000*</b></li><li>Revised fee after final fixation: Rs. 1,51,600</li><li>Special provisions for NRI students: USD $5,000</li></div> For more information, you can visit <a href='https://www.cbit.ac.in/admission_post/fee-structure/' target='_blank'>Fee Structure</a>"
+      ]
+    },
+    {
+      "tag": "Hod of IT",
+      "patterns": [
+        "who is the HOD of IT department",
+        "IT HOD",
+        "hod",
+        "HOD of IT"
+      ],
+      "responses": [
+        "Dr. Rajanikanth Aluvalu"
+      ]
+    },
+    {
+      "tag": "placements_package",
+      "patterns": [
+        "what is the placement percentage in cbit?",
+        "what is the placement percentage?",
+        "placement percentage",
+        "tell me about placements",
+        "placements in cbit",
+        "placements",
+        "It placements percentage",
+        "placement percentage of IT",
+        "what is the placement percentage in IT?",
+        "tell me about placements in IT",
+        "packages",
+        "packages at cbit",
+        "package",
+        "highest package at cbit",
+        "highest package",
+        "what is the highest package at cbit",
+        "tell me the highest package at cbit",
+        "what is the highest package of IT",
+        "highest package IT",
+        "highest package of IT department",
+        "It highest package",
+        "cbit highest package",
+        "highest package",
+        "tell me about the placements and packages of cbit",
+        "placements and packages of cbit",
+        "placements and packages in cbit",
+        "placements and packages at cbit",
+        "placements and packages",
+        "details about placements and packages in cbit",
+        "details about placements and packages at cbit",
+        "details about placements and packages of cbit",
+        "details about placements and packages"
+      ],
+      "responses": [
+        "<p>In the 2022-2023 academic year, CBIT achieved an <b>77%</b> placement rate with the highest package being <b>45.6 LPA</b>.</p><p> Similarly, the IT department recorded an <b> %</b> placement rate with a peak package of <b> LPA</b>.</p><p>For more Information,you can visit <a href='https://www.cbit.ac.in/placement_post/placement/' target='_blank'>CBIT Placements</a></p>"
+      ]
+    },
+    {
+      "tag": "achievements",
+      "patterns": [
+        "tell me about the achievements in CBIT",
+        "tell me about the achievements at CBIT",
+        "tell me about the achievements of CBIT",
+        "achievements",
+        "achievements CBIT",
+        "achievements at CBIT","ranking of college",
+        "ranking details of cbit college",
+        "cbit ranking",
+        "achievements of CBIT",
+        "achievements in CBIT",
+        "what are the achievements of CBIT",
+        "CBIT achievements",
+        "tell me about achievements",
+        "accomplishments"
+      ],
+      "responses": [
+        "<div> <p>CBIT's Achievements:</p> <ul> <li>Accredited in the third cycle by <b>NAAC</b> with Grade A++.</li><li>Ranked <b>No.1</b> in both the Telugu states amongst the Self-financed Engineering Institutions.</li> <li><b>ISO</b> 9001:2015 Certified Institution.</li>  <li>Ranked all India 151-200 band by <b>NIRF</b>-MHRD,2023.</li> <li> All UG Engineering and five PG programs have been Acrediated by <b>National Board of Accreditation</b></li></ul></div>"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "events",
+        "what are the events at cbit",
+        "cbit events",
+        "cbit it events",
+        "it events",
+        "events it",
+        "events cbit",
+        "tell me about the events of cbit ",
+        "tell me about the events of cbit it",
+        "what are the events of cbit it",
+        "what are the events of cbit",
+        "what are the events in cbit",
+        "what are the events in cbit it",
+        "what are the events of cbit it"
+      ],
+      "responses": [
+        "<div> <p>CBIT's Events:</p><li> Sudhee-<b>Tecstasy</b> 2023</li> <li><b>UCC HackIT</b> November 2023</li> <li>CodeSprint Sprint EX: Speaker <b>Ishan Sharma</b> </li><li>CCC club Inaugural Event by <b>Ajinkya Lohakare</b>(Ethical Hacker).</li></div/>For more information,you can visit <a href='https://www.cbit.ac.in/academic_post/events-it/' target='_blank'>CBIT EVENTS</a>"
+      ]
+    },
+    {
+      "tag": "courses_admissions",
+      "patterns": [
+        "courses",
+        "admissions",
+        "admissions cbit",
+        "admissions details in cbit",
+        "admissions details",
+        "admission",
+        "admission detail",
+        "admission detail cbit",
+        "admission detail in cbit",
+        "admissions in cbit",
+        "what are the courses in cbit",
+        "what are the courses cbit",
+        "what are the courses there in cbit",
+        "what courses are there in cbit"
+      ],
+      "responses": [
+        "<div><p><b>UG Courses</b></p> <li>B.E- Civil Engineering</li><li>B.E- Mechanical Engineering </li><li>B.E- Electronics & Communications Engineering </li><li>B.E- Computer Science and Engineering </li><li>B.E- Electrical & Electronics Engineering </li><li>B.E- Information Technology </li><li>B.Tech- Chemical Engineering</li><li>B.Tech- Biotechnology</li><li>B.E- Artificial Intelligence and Data Science</li><li>B.E - Computer Science and Engineering (Artificial Intelligence and Machine Learning)</li><li>B.E- Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain Technology)</li><li>B.E- Artificial Intelligence and Machine Learning</li></div><div><p><b>PG Courses</b></p><li>MBA (Master of Business Administration) </li><li>MCA (Master of Computer Applications) </li><li>ME- Structural Engineering (Civil) </li><li>ME- CAD/CAM (Mech) </li><li>M.Tech- CSE </li><li>ME- Communication Engineering (ECE) </li><li>ME - Power Systems & Power Electronics (EEE) </li><li>ME - Embedded Systems and VLSI Design (ECE) </li><li>ME - Thermal Engineering (Mech) </li><li>M.Tech - Artificial Intelligence and Data Science </li></div><p>For more Information, you can visit <a href='https://www.cbit.ac.in/admission_post/admissions/' target='_blank'>CBIT Admissions</a></p>"
+      ]
+    },
+    {
+      "tag": "strength",
+      "patterns": [
+        "how many students are there in IT department",
+        "how many students are there in IT department cbit",
+        "no. of students in it",
+        "student count",
+        "student count IT",
+        "no. of students in cbit it",
+        "number of students in cbit it",
+        "number of students in it department",
+        "number of students in it"
+      ],
+      "responses": [
+        "There are approximately 900 students who belong to IT department"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "cbit sports",
+        "sports",
+        "sports cbit",
+        "tell me about sports in cbit",
+        "Tell me about cbit sports",
+        "explain about sports in cbit",
+        "explain about sports"
+      ],
+      "responses": [
+        "Sports at CBIT are vibrant and diverse, encompassing traditional games like basketball, cricket, and football, as well as niche sports like badminton and table tennis. The college actively hosts inter-college tournaments and intra-college competitions, fostering teamwork and healthy competition. Students also have access to regional and national level events. The Chaitanya Kreeda club specifically caters to sports enthusiasts, offering a platform for engagement and skill development in various athletic pursuits.For more infomation, you can visit <a href='https://www.cbit.ac.in/campuslife_post/chaitanya-kreeda/' target='_blank'>CBIT SPORTS</a>"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library",
+        "cbit library",
+        "explain about the cbit library",
+        "tell me about the cbit library"
+      ],
+      "responses": [
+        "CBIT boasts an extensive library offering a plethora of books, journals, and technical resources. With dedicated discussion rooms and a resource center, it provides an enriching environment for both individual study and collaborative learning.For more details, you can visit the library's website at <a href='https://www.library.cbit.ac.in/' target='_blank'>CBIT Library</a>"
+      ]
+    },
+    {
+      "tag": "Lab",
+      "patterns": [
+        "labs in cbit it",
+        "it labs",
+        "labs in it",
+        "cbit labs",
+        "tell me about the labs in cbit it",
+        "tell me about the labs in cbit",
+        "explain about cbit labs"
+      ],
+      "responses": [
+        "CBIT's Department of IT Infrastructure houses specialized labs equipped with cutting-edge technology. These labs support practical learning in programming, networking, and database management. They provide a hands-on environment for research, projects, and application of theoretical knowledge in real-world scenarios.For more information, you can visit <a href='https://www.cbit.ac.in/academic_post/department-of-it-infrastructure-2/' target='_blank'>CBIT LABS</a>"
+      ]
+    },
+    {
+      "tag": "IT_syllabus",
+      "patterns": [
+        "syllabus","cbit syllabus","what is the syllabus at cbit",
+        "give me the details about the cbit syllabus","syllabus cbit",
+        "it syllabus",
+        "cbit it syllabus",
+        "tell me about the syllabus in cbit it",
+        "explain about the syllabus of it"
+      ],
+      "responses": [
+        "Certainly! To access the syllabus details for courses offered at CBIT, kindly visit the following link: <a href='https://www.cbit.ac.in/current_students/ug-and-pg-syllabus-structure' target='_blank'>CBIT Syllabus</a>. This resource provides comprehensive information regarding the curriculum structure for both undergraduate and postgraduate programs at the institution."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "clubs in cbit",
+        "cbit clubs",
+        "clubs",
+        "what clubs are there in cbit",
+        "tell me about clubs in cbit",
+        "what are the clubs there in cbit",
+        "clubs details in cbit"
+      ],
+      "responses": [
+        "At CBIT,holistic student development is prioritized. Joining professional bodies provides a platform for skill enhancement, keeping students abreast of industry trends and fostering valuable networking opportunities. Additionally, active participation in various clubs within the institute allows students to explore and express their creativity, building team spirit and honing interpersonal communication skills. This multifaceted approach not only enriches academic experiences but also contributes to the overall growth of a student's personality. Explore the diverse clubs at <a href='https://www.cbit.ac.in/campuslife_post/students-clubs' target='_blank'>CBIT Clubs</a> to unlock opportunities for personal and professional development beyond the classroom."
+      ]
+    }
+  ]
+}
