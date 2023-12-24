@@ -1,6 +1,6 @@
 # Chatbot Deployment with Flask and JavaScript
 
-In this tutorial we deploy the chatbot we created in [this](https://github.com/chandra76768/chatbot.git) tutorial with Flask and JavaScript.
+In this tutorial we deploy the chatbot we created in [this](https://github.com/Rohithchowk/CBITchatbot.git) tutorial with Flask and JavaScript.
 
 This gives  deployment option:
 - Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
@@ -43,3 +43,5 @@ Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 ## Deployment Link
 
 [chatbot Link](http://chandra76768.pythonanywhere.com/)
+
+The chatbot gives info about our college CBIT , its placements , packages , clubs ,events ,faculty and thier url links , and also information related to  IT department 
